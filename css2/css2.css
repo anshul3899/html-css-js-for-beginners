@@ -1,0 +1,26 @@
+#round{
+				border-radius: 25px;
+				background-color: #BBBABC;
+				width: 690px;
+				height: 600px;
+				justify-content: center;
+				margin-top: 10px;
+				align-content: center;
+				text-align: center;
+				display: table;
+			}
+			#round img{height: 150px;
+				width: 200px;
+				object-fit: cover;
+				float: left;
+				display: table;
+				display: block;
+				margin: 10px;
+                border-radius: 20px;
+			}
+			#round h1{
+				font-family: verdana;
+				font-style: bold;
+				font-color:#ECEAEC;
+			}
+			

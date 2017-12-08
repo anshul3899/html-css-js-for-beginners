@@ -1,0 +1,50 @@
+#red{
+				text-align: center;
+	            background-color: red;
+	            width: 100%;
+	            height: 200px;
+	            
+	            
+			}
+			#gree{
+				background-color: #05FB1E;
+	            width: 100%;
+	            height: 25px;
+
+			}
+
+			#yell{
+				background-color: #ECFB05;
+	            width: 60%;
+	            
+	            float: left;
+	            height: 525px;
+
+			}
+			#blue{
+				background-color: #0507FB;
+	            width: 20%;
+	            
+	            float: left;
+	            height: 525px;
+
+			}
+
+			#cyan{
+				background-color: #05FBE2;
+	            width: 20%;
+	                        float: left;
+	                        height: 525px;
+
+			}
+			#cont{
+				width:100%;
+				
+			}
+			#master{
+				margin-right: auto;
+				margin-left: auto;
+				justify-content: center;
+				width: 50%;
+
+			}
