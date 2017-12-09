@@ -1,0 +1,98 @@
+                 #myDiv{
+                              background-color: red;
+                              height: 150px;
+                              text-align: center;
+                        }
+                        #myDiv h1{
+                              
+                              font-style: bold;
+                              margin-top: 0px;
+                              padding: 10px;
+                              color: white;
+                              width: 100%;
+                        }
+                        #myInput{
+                               width: 1000px;
+                               
+                               font-size: 160%;
+                        }
+                        .adbutton{
+                        
+                              display: inline-block;
+                              width: 100px;
+                              background-color: #DBD8DB;
+                              font-size:180%;
+                              cursor: pointer;
+                        }
+                        .adbutton:hover{
+                          background-color: #9B9596;
+                        }
+
+                        ul{
+                    margin: 0;
+                    padding: 0;
+                        }
+                        ul li{
+                              list-style-type: none;
+                              background-color: white;
+                              
+                              font-size: 150%;
+                              
+                              margin-right: 0px;
+
+                              text-align: left;
+                              float: center;
+                              cursor: pointer;
+                              padding: 10px;
+                              padding-left: 100px;
+
+                                transition: 0.1s;
+
+                        }
+                        body{
+                              background-color: #F9446D;
+                        }
+                        ul li:hover{
+                           background-color: #E1DADB;
+
+
+                        }
+                        
+                        .close {
+                    height:40px;  
+                        
+                        background-color: #9B9596;
+                        display: inline;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        padding-bottom: 0px;
+                        padding-top: 0;
+                        text-align: center;                        }
+
+
+           ul li.checked {
+               background: #888;
+               color: #fff;
+              text-decoration: line-through;
+
+              }
+
+/* Add a "checked" mark when clicked on */
+          ul li.checked::before {
+           content: '';
+             position: absolute;
+            border-color: #fff;
+            border-style: solid;
+            border-width: 0 2px 2px 0;
+             top: 160px;
+            left: 16px;
+              transform: rotate(45deg);
+            height: 15px;
+            width: 7px;
+            }      
+
+            .header:after {
+  content: "";
+  display: table;
+  clear: both;
+}     
