@@ -1,4 +1,4 @@
-	function function1() {
+function function1() {
   var ul = document.getElementById("list");
   var li = document.createElement("li");
    var children = ul.children.length + 1;
@@ -14,7 +14,7 @@
 else{
    li.appendChild(document.createTextNode(dataEntered));
   li.appendChild(span);
-  li.setAttribute("id", children); // added line
+  li.setAttribute("id", children);
   ul.appendChild(li);   
 }
   for (i = 0; i < close.length; i++) {
@@ -39,4 +39,3 @@ list.addEventListener('click', function(ev) {
     ev.target.classList.toggle('checked');
   }
 }, false);
-           

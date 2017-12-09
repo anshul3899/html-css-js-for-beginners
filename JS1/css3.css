@@ -3,19 +3,22 @@
                               height: 150px;
                               text-align: center;
                         }
+
                         #myDiv h1{
                               
-                              font-style: bold;
+                              font-weight: 700;
                               margin-top: 0px;
                               padding: 10px;
                               color: white;
                               width: 100%;
                         }
+
                         #myInput{
                                width: 1000px;
                                
                                font-size: 160%;
                         }
+
                         .adbutton{
                         
                               display: inline-block;
@@ -24,6 +27,7 @@
                               font-size:180%;
                               cursor: pointer;
                         }
+
                         .adbutton:hover{
                           background-color: #9B9596;
                         }
@@ -32,6 +36,7 @@
                     margin: 0;
                     padding: 0;
                         }
+
                         ul li{
                               list-style-type: none;
                               background-color: white;
@@ -49,6 +54,7 @@
                                 transition: 0.1s;
 
                         }
+
                         body{
                               background-color: #F9446D;
                         }
@@ -59,25 +65,25 @@
                         }
                         
                         .close {
-                    height:40px;  
-                        
-                        background-color: #9B9596;
+                       height:40px;  
+                       background-color: #9B9596;
                         display: inline;
                         padding-left: 20px;
                         padding-right: 20px;
                         padding-bottom: 0px;
                         padding-top: 0;
-                        text-align: center;                        }
+                        text-align: center;                      
+                          }
 
 
            ul li.checked {
                background: #888;
                color: #fff;
-              text-decoration: line-through;
+               text-decoration: line-through;
 
               }
 
-/* Add a "checked" mark when clicked on */
+
           ul li.checked::before {
            content: '';
              position: absolute;
@@ -92,7 +98,7 @@
             }      
 
             .header:after {
-  content: "";
-  display: table;
-  clear: both;
-}     
+            content: "";
+             display: table;
+            clear: both;
+              }     
